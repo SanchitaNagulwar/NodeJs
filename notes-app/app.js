@@ -20,5 +20,5 @@ console.log(msg)
 
 // console.log(validator.isEmail('Mary@gmail.com'))
 
-const greenMsg = chalk.bold.inverse.red('Important')
+const greenMsg = chalk.bold.inverse.green('Important')
 console.log(greenMsg)
