@@ -20,5 +20,30 @@ console.log(msg)
 
 // console.log(validator.isEmail('Mary@gmail.com'))
 
+///////////////////////////////////////////////
+
 const greenMsg = chalk.bold.inverse.green('Important')
 console.log(greenMsg)
+
+///////////////////////////////////////
+
+console.log(process.argv)
+//This is the output we get after running the command "app.js sanchita" in the terminal
+// [
+//     'C:\\Program Files\\nodejs\\node.exe',
+//     'C:\\Users\\SANANDKI\\OneDrive - Capgemini\\Desktop\\Nodejs\\notes-app\\app.js',
+//     'sanchita'
+//   ]
+
+console.log(process.argv[0])
+// output: 'C:\\Program Files\\nodejs\\node.exe'
+
+console.log(process.argv[1])
+// output: 'C:\\Users\\SANANDKI\\OneDrive - Capgemini\\Desktop\\Nodejs\\notes-app\\app.js'
+
+console.log(process.argv[2])
+// output: 'sanchita'
+
+
+
+
